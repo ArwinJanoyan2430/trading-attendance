@@ -128,7 +128,7 @@ export default function Dashboard() {
   if (!user) return <div className="p-6">Loading...</div>;
 
   return (
-    <div className="-mx-30 max-w-xl">
+    <div className="mx-0 max-w-xl">
       <h1 className="text-xl font-bold mb-2">Dashboard</h1>
 
       <p className="mb-2">

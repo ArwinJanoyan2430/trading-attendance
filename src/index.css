@@ -2,8 +2,8 @@
 
 /* From Uiverse.io by adamgiebl */ 
 .card {
-  width: 300px;
-  height: 400px;
+  width: 320px;
+  height: 420px;
   background: lightgrey;
   border: 3px inset white;
   background: #e8e8e8;
@@ -49,7 +49,7 @@
 
 .input:focus, input:hover {
   outline: none;
-  border-color: rgba(129, 140, 248);
+  border-color: rgb(48, 114, 255);
   background-color: #fff;
   box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
 }
