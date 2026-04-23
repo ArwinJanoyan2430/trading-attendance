@@ -4,6 +4,7 @@ import Login from "./pages/login.jsx";
 import Signup from "./pages/signup.jsx";
 import Dashboard from "./pages/dashboard.jsx";
 import Layout from "./pages/Layout.jsx";
+import Setup from "./pages/setup.jsx";
 
 import "./index.css";
 
@@ -12,6 +13,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/setup" element={<Setup />} />
 
       {/* PROTECTED / APP ROUTES */}
       <Route element={<Layout />}>
