@@ -105,7 +105,7 @@ return (
             Already have an account?{" "}
             <span
               className="text-blue-500 underline cursor-pointer"
-              onClick={() => navigate("/login")}
+              onClick={() => navigate("/")}
             >
               Login
             </span>
